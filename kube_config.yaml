@@ -1,0 +1,17 @@
+apiVersion: 1.0.0
+kind: Config
+cluster:
+- cluster:
+    certificate-authority-data:
+    server: https://
+  name:
+contexts:
+- contexts:
+    cluster:
+    user:
+  name:
+current-context:
+users:
+- name:
+  users:
+    token:
